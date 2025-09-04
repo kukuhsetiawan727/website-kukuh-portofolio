@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css">
+  <!--font untuk ikon-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">🌐 Portofolio</div>
+    <ul>
+      <li><a href="#about">Tentang Saya</a></li>
+      <li><a href="#projects">Proyek</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>Halo, Saya Kukuh Setiawan</h1>
+    <p>Seorang Seorang Profesional di bidang keamanan</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <img src="images/foto kukuh jas.jpg" alt="Foto Profil">
+    <div>
+      <h2>Tentang Saya</h2>
+      <p>Saya seorang satuan pengaman/SATPAM  di salah satu anak perusahaan BUMN & saat ini di bawai oleh Danantara, saya bergabung menjadi satuan pengamana sejak lulus sekolah pada tahun 2019</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Proyek Saya</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Portfolio</h3>
+        <p>Nama: Kukuh Setiawan</p>
+        <p>Umur: 25 Tahun</p>
+        <p>Agama: Islam</p>
+        <p>Tempat/Tanggal Lahir: Rimbo Ulu,1 Agustus 2000</p>
+      </div>
+      <div class="project-card">
+        <h3>Pengalaman</h3>
+        <p>-Tahun 2019-2021 bekerja di PT.JAYATAMA</p>
+        <P>-Tahun 2021-saat ini bekerja di PT. PKSS</P>
+      </div>
+      <div class="project-card">
+        <h3>Keahlian & Legalitas</h3>
+        <p>-Mengikuti karate kyokushinkai</p>
+        <p>-Sertifikasi training K3 & PK3</p>
+        <p>-Ijazah GADA MADYA</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Kontak Saya</h2>
+    <form onsubmit="sendMessage(event)">
+      <input type="text" placeholder="Nama" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Pesan" rows="5" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 [Kukuh Setiawan]. Dibuat dengan setulus hati</p>
+     <div class="social-icons">
+      <a href="https://instagram.com/kukuh_setiawan1" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com/Kukuh setiawan" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://tiktok.com/@semuaorang727" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://wa.me/6282288371517" target="_blank"><i class="fab fa-whatsapp"></i></a>    
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
